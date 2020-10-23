@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.card.cuscard {
+    border       : unset !important;
+    box-shadow   : 1px 1px 10px #e9e9e9;
+    border-radius: 10px;
+}
+
+.custom_border {
+    border-bottom: 2px solid #dddd;
+    padding      : 4px 10px;
+}
+
+.custom-margin {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+.main-content {
+    background-color: #fafafa;
+}
+
+.custom-title {
+    color: #464646;
+}
+
+.custom-badge {
+    display: inline-block;
+}
+
+.custom-badge p {
+    color    : #5c99cc;
+    font-size: 16px;
+    padding  : 0px 6px;
+}
+
+.custom-badge span {
+    background-color: #e8f1f6;
+}
+
+.custom-list {
+    padding: 20px !important;
+}
+
+.custom-data p:nth-child(1) {
+    color      : #2d2e30;
+    font-size  : 12px;
+    font-weight: 500;
+}
+
+.custom-data p:nth-child(2) {
+    color    : #c2c2c2;
+    font-size: 10px;
+}
+
+.custom-data p:nth-child(3) {
+    font-size: 10px;
+    color    : #4a4a4a;
+}
+
+.custom-grey {
+    color: #4a4a4a;
+}
+
+.font_12 {
+    font-size: 12px;
+}
+
+.custom-number {
+    background-color: #eaffe6;
+    color           : #507a47;
+    font-size       : 10px;
+    padding         : 2px 5px;
+    border-radius   : 3px;
+}
+
+.fa-bars {
+    color       : #70a3d2;
+    font-size   : 1.8rem;
+    margin-right: 1rem;
+}
+
+.custom-align .col-md-4,
+.custom-align .col-md-5 {
+    display        : flex;
+    justify-content: flex-start;
+    align-items    : center;
+}
+
+.custom-align .col-md-5 p,
+.custom-align .col-md-3 p {
+    margin-bottom: unset;
+}
+
+.custom-align {
+    padding: 8px 0px;
+}
+
+.custom-align .col-md-3 {
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+@media (max-width:769px) {
+    .cuscard .border-right {
+        border: unset !important;
+    }
+    .cuscard .border-bottom {
+        padding-bottom: 1rem;
+    }
+    .custom-news .custom-data {
+        padding-left: unset;
+        margin-top: 1rem;
+    }
+    .custom-align .col-md-3 {
+        justify-content:flex-start
+    }
+    .custom-margin {
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+}
